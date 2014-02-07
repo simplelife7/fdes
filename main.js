@@ -920,7 +920,7 @@ var FDES = {
 		$.ajax({  
 			dataType:'script',  
 			scriptCharset:'utf-8',////////  
-			url:'http://127.0.0.1/qs/source2.js',  
+			url:'https://raw2.github.com/simplelife7/fdes/master/source2.js',  
 			success:function(){
 				var data = fd_source2.data;
 				console.log(data,fd_source2.data);
