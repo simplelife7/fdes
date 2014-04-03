@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+			<meta charset="utf-8">
+			<title>前端易搜</title>
+<style>
+*{margin:0;padding:0;vertical-align:baseline}
+fieldset,img{border:0 none}
+i,em{font-style:normal}
+ol,ul{list-style:none}
+input,img{vertical-align:middle}
+input,select{font:inherit;font-size:100%}
+table{border-collapse:collapse;border-spacing:0}
+a{text-decoration:none;color:#333}
+html,body{height:100%}
+body{margin:0 auto;min-width:320px;max-width:1024px;font-size:14px;line-height:1.5;color:#444;-webkit-text-size-adjust:100%;background:#d9d9d9;font-family:"\5fae\8f6f\96c5\9ed1","Microsoft YaHei",Helvetica,Arial,Verdana,sans-serif}
+.hide{display:none}
+.clearfix{zoom:1}
+.clearfix:after{content:' ';display:block;clear:both;height:0;visibility:hidden}
+body{background: url(img/desktop-grid-body.png);}
+
+
+.es_btn_wrap {position: relative; width:240px;margin: 0 auto;margin-top: 106px;}
+.guide_img{position: absolute;right: -185px;top: -104px; display:block; width:187px;height:157px;background: url(img/guide.png);}
+.es_btn {font-family: Arial;color: #ffffff;font-size: 20px;background: #3498db;padding: 10px 20px 10px 20px;text-decoration: none;width: 200px;display: block;text-align: center;height: 50px;line-height: 50px;font-size: 30px;box-shadow: 2px 2px 8px rgba(3, 3, 3, 0.3);}
+
+.es_btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+.des{margin-top:100px; font-size:16px;padding:10px;background-color: #f5f5f5;border:#ddd solid 1px;}
+</style>
+	</head>
+	<body>
+        <div class="es_btn_wrap">
+            <a class="es_btn" href='javascript:;function includeScriprt(url,fnback){var script=document.createElement("script");script.type="text/javascript";script.charset="UTF-8";script.src=url+"?t="+parseInt(new Date().getTime());document.getElementsByTagName("body")[0].appendChild(script);function done(){fnback()}script.onload=script.onreadystatechange=function(){script.readyState?script.readyState.toLowerCase()=="loaded"&&done():done()}}function includeStyle(url){var style=document.createElement("link");style.type="text/css";style.rel="stylesheet";style.href=url+"?t="+parseInt(new Date().getTime());document.getElementsByTagName("head")[0].appendChild(style)}if(window.jQuery){(function($){$.getScript("http://lab.reeqi.me/fdes/main.js",function(){includeStyle("http://lab.reeqi.me/fdes/style.css");FDES.init($)})})(jQuery)}else{includeScriprt("http://lab.reeqi.me/fdes/jquery.min.js",function(){$.getScript("http://lab.reeqi.me/fdes/main.js",function(data){includeStyle("http://lab.reeqi.me/fdes/style.css");FDES.init($)})})};'>&lt;前端易搜/&gt;</a><i class="guide_img"></i>
+        </div>
+
+        <p class="des">FDES以书签栏嵌入脚本的形式，提供一些优质的前端资源索引。（https网站无法嵌入）</p>
+	
+
+<!--
+<script>
+function includeScriprt(url, fnback) {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = url + '?t='+ parseInt(new Date().getTime());
+    document.getElementsByTagName("body")[0].appendChild(script);
+    function done() {
+        fnback()
+    }
+    script.onload = script.onreadystatechange = function() {
+        script.readyState ? script.readyState.toLowerCase() == "loaded" && done() : done()
+    }
+}
+function includeStyle(url) {
+    var style = document.createElement("link");
+    style.type = "text/css";
+    style.rel = "stylesheet";
+    style.href = url + '?t='+ parseInt(new Date().getTime());
+    document.getElementsByTagName("head")[0].appendChild(style)
+}
+if (window.jQuery) {
+    (function($) {
+
+        $.getScript("http://lab.reeqi.me/fdes/main.js",
+        function() {
+            includeStyle("http://lab.reeqi.me/fdes/style.css");
+            FDES.init($);
+        })
+	})(jQuery);
+} else {
+    includeScriprt("http://lab.reeqi.me/fdes/jquery.min.js",function() {
+        $.getScript("http://lab.reeqi.me/fdes/main.js",function(data) {
+            includeStyle("http://lab.reeqi.me/fdes/style.css");
+            FDES.init($);
+        })
+    })
+}
+</script>
+-->
+	</body>
+</html>

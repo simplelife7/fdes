@@ -77,7 +77,7 @@ var fd_source2 = {
 				},
 				{
 					"name" : "TinyPng",
-					"link" : "https://tinypng.com/‎",
+					"link" : "https://tinypng.com",
 					"tags" : "工具,图片压缩,tiny,png"
 				},{
 					"name" : "Smush.it，Yslow所用的线上图片压缩网站，支持jpg/png等",
@@ -99,6 +99,10 @@ var fd_source2 = {
 					"name" : "duriMe,Base64,dataurl转换工具",
 					"link" : "http://duri.me/",
 					"tags" : "工具,base64,dataURI"
+				},{
+					"name" : "占位图",
+					"link" : "http://placekitten.com/",
+					"tags" : "工具,占位图"
 				}
 			],
 			"css类" : [
@@ -253,13 +257,17 @@ var fd_source2 = {
 					"link" : "http://ivomynttinen.com/blog/the-ios-design-cheat-sheet-volume-2/",
 					"tags" : "多终端,移动,手机,ios,分辨率,ppi,尺寸"
 				},{
-					"name" : "各种设备物理尺寸、分辨率、PPI等信息",
+					"name" : "各种移动设备物理尺寸、分辨率、PPI等信息",
 					"link" : "http://screensiz.es/phone",
 					"tags" : "多终端,移动,手机,ios,分辨率,ppi,物理,尺寸"
 				},{
 					"name" : "几乎所有设备的屏幕尺寸与像素密度表",
 					"link" : "http://en.wikipedia.org/wiki/List_of_displays_by_pixel_density",
 					"tags" : "多终端,移动,手机,ios,分辨率,ppi,物理,尺寸"
+				},{
+					"name" : "Spirit，腾讯移动Web整体解决方案",
+					"link" : "http://alloyteam.github.io/Spirit/",
+					"tags" : "多终端,移动,手机,ios,安卓,webapp"
 				},{
 					"name" : "移动Web前端知识库-Alloy整理，包括代码规范、最佳实践、常见问题、工具等",
 					"link" : "https://github.com/AlloyTeam/Mars",

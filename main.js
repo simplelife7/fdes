@@ -920,7 +920,7 @@ var FDES = {
 		$.ajax({  
 			dataType:'script',  
 			scriptCharset:'utf-8',////////  
-			url:'https://raw2.github.com/simplelife7/fdes/master/source2.js',  
+			url:'http://lab.reeqi.me/fdes/source2.js',  
 			success:function(){
 				var data = fd_source2.data;
 				console.log(data,fd_source2.data);
@@ -956,8 +956,6 @@ var FDES = {
 
 						newObj2.push(temp2);
 					}
-					console.log(newObj2);
-
 					temp.level1Data = newObj2;
 
 
@@ -967,16 +965,11 @@ var FDES = {
 
         var html = FDES.toHtml($,newObj);
 				$('#FDESSideBd').html(html);
-        
-
-
-
 
 
 
 				FDES.unfoldEvent($);
         FDES.autoCompleteEvent($,$("#FDESsideInput"),newObjTie);
-				console.log(newObj);
         FDES.toHtml($,newObj);
 
 
@@ -985,7 +978,6 @@ var FDES = {
 	},
   toHtml : function($,newObj){
     var listHtml = '<ul id="FDESList" class="FDES_list">';
-    console.log(newObj)
     for(var i in newObj.items){
 
       var level2Html = '<li class="FDES_level1_item"><h3 class="FDES_level1_title">'+ newObj.items[i].level1Name +'<i></i></h3><div class="FDES_level2_item">';
