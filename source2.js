@@ -101,7 +101,7 @@ var fd_source2 = {
 					"tags" : "工具,base64,dataURI"
 				},{
 					"name" : "占位图",
-					"link" : "http://placekitten.com/",
+					"link" : "http://placehold.it/",
 					"tags" : "工具,占位图"
 				}
 			],
